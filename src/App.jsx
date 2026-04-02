@@ -474,11 +474,9 @@ function AuthScreen({ onAuthSuccess }) {
                 </div>
 
                 <div className="mt-16 w-full max-w-xs">
-                  <Link to="/">
                     <button className="w-full bg-[#22C55E] text-white py-5 px-8 rounded-3xl font-headline font-bold text-lg editorial-shadow transition-all duration-300 hover:brightness-110 hover:-translate-y-1 active:scale-95 active:opacity-90">
                       Done
                     </button>
-                  </Link>
                 </div>
 
                 <div className="absolute -bottom-10 -left-20 w-96 h-96 opacity-10 pointer-events-none">
