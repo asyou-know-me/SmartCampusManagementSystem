@@ -5,7 +5,7 @@ import "./App.css";
 import Submitted from "./component/Submitted";
 
 const API_BASE =
-  import.meta.env.VITE_API_BASE_URL || "https://scms-bknd.onrender.com/";
+  import.meta.env.VITE_API_BASE_URL || "https://scms-bknd.onrender.com";
 const FILE_BASE = API_BASE.replace(/\/api$/, "");
 
 const initialRegisterState = {
