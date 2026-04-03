@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 // import { useNavigate } from "react-router-dom";
 // import { Route, Routes } from "react-router-dom";
-import Submitted from "./component/Submitted";
+// import Submitted from "./component/Submitted";
 
 const API_BASE = "https://scms-bknd.onrender.com";
 const FILE_BASE = API_BASE.replace(/\/api$/, "");
